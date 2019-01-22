@@ -1,0 +1,65 @@
+.header-main{
+    background-image: linear-gradient(to right, rgba(45, 98, 99, 0.67) , rgba(31, 70, 70, 0.75)),url(../../img/pic6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+
+    
+}
+
+.brand-logo{
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.brand-logo .left{
+    margin-right: 15px;
+}
+
+.numbers{
+    font-size: 10px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+.header-main_content{
+    position: absolute;
+    top: 35%;
+
+}
+
+.header-main_content h1{
+    margin-bottom: 30px;
+    
+}
+
+.sidenav-trigger .material-icons{
+    font-size: 40px;
+}
+
+ 
+
+
+#nav-mobile li a{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#nav-mobile li:hover{
+    background-color:#2d6263;
+    
+}
+
+
+.ml{
+    margin-left: 15px;
+}

@@ -1,0 +1,104 @@
+@import "layout/header.css";
+@import "layout/features.css";
+@import "layout/phone.css";
+
+/* color variables */
+:root {
+  --main-pg-color: #0f5f5c;
+  --second-pg-color: #2d6263;
+  --icon-color:#6fb048;
+  --bg-color:#eef1ec;
+}
+
+.sidenav-trigger .material-icons {
+  font-size: 40px; }
+
+#nav-mobile li a {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700; }
+
+#nav-mobile li:hover {
+  background-color: #2d6263; }
+
+.ml {
+  margin-left: 15px; }
+
+  /* Quote Section */
+  .quote-section{
+    height: 650px;
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .quote-section_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+  }
+
+  .quote-section_container img{
+    margin-left: 45px;
+  }
+
+  /* Map Section */
+
+  .map-section{
+    height: 500px;
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+  }
+
+  /* Price-section */
+  
+  .price-section{
+   
+  }
+
+  .price-section_box{
+    padding: 0 !important;
+  }
+
+
+  /* subscribe-section */
+  .subscribe-section{
+    height: 200px;
+    background-image:linear-gradient(to right ,rgba(238, 241, 236, 0.808),rgba(238, 241, 236, 0.801)), url(../img/pic6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     position: relative;
+
+     display: flex;
+      
+
+  }
+
+  .subscribe-section .row{
+    display: flex;
+    align-items: center;
+  }
+
+  .subscribe-section_box{
+    display: flex;
+    justify-content:flex-start;
+  }
+
+  .subscribe-section_button{
+    display: flex;
+    justify-content:flex-end;
+  }
+
+
+
+
+
+
+
+
+

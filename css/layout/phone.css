@@ -1,0 +1,11 @@
+.phone-section{
+    height: 700px;
+    background:var(--bg-color);
+    padding: 45px;
+    color: var(--main-pg-color);
+  
+  }
+
+  .phone-section_img{
+    width: 80%;
+  }
